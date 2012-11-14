@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="module" version="1.0.0">
+  <name>PHP Module</name>
+  <author>Gabiriele Lalasava</author>
+  <creationDate>Feb 05, 2007</creationDate>
+  <copyright>(C) 2004 Fiji Web Design</copyright>
+  <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+  <authorEmail>info@fijiwebdesign.com</authorEmail>
+  <authorUrl>www.fijiwebdesign.com</authorUrl>
+  <version>1.0.0.Beta</version>
+  <description><![CDATA[Ýòîò ìîäóëü ïîçâîëÿåò Âàì äîáàâëÿòü ëþáîé HTML-, JavaScript-, CSS- è PHP-êîä êàê ìîäóëü ñàéòà Joomla èëè Mambo. Åãî ìîæíî èñïîëüçîâàòü ÷òîáû âñòàâëÿòü ñ÷åò÷èêè, google adsense è ò.ä., ïðîñòûì êîïèðîâàíèå è âñòàâêîé ñêðèïòà. Âû ìîæåòå êîïèðîâàòü ìîäóëü, èñïîëüçóÿ îñîáåííîñòü êîïèè ìîäóëÿ â Joomla, ñîçäàâàòü ìíîãîêðàòíûå âåðñèè ñ ðàçëè÷íûì ñîäåðæàíèåì. Ýòî - ìîäóëü, áàçèðóåòñÿ íà mod_html, òàê ÷òî îí èìååò âñå îñîáåííîñòè mod_html, ïëþñ ñïîñîáíîñòü âêëþ÷èòü ñêðèïòû íàïèñàííûå íà  php. Âû ìîæåòå íàéòè íåêîòîðûå ãîòîâûå ñêðèïòû íà áàçå ýòîãî ìîäóëÿ çäåñü: <a href="http://fijiwebdesign.com/content/view/94/55/1/1/" target="_blank">http://fijiwebdesign.com/content/view/94/55/1/1/</a>]]></description>
+  <files>
+    <filename module="mod_php">mod_php.php</filename>
+  </files>
+    <params>
+		<param name="moduleclass_sfx" type="text" default="" label="Ñóôôèêñ êëàññà ìîäóëÿ" description="Ñóôôèêñ, êîòîðûé áóäåò èñïîëüçîâàí â îïèñàíèè êëàññà òàáëèöû ñòèëåé(CSS) ìîäóëÿ. Ýòî ïîçâîëÿåò èñïîëüçîâàòü èíäèâèäóàëüíûé ñòèëü ìîäóëÿ." />
+		<param name="cache" type="radio" default="0" label="Ðàçðåøèòü êýø" description="Âêëþ÷èòü ëè êýø äëÿ ñîäåðæèìîãî ýòîãî ìîäóëÿ">
+			<option value="0">Íåò</option>
+			<option value="1">Äà</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="fwd_html" type="textarea" default="" label="PHP, HTML, JS, CSS" description="Äîáàâèòü PHP-, HTML-, Javascript- èëè CSS-êîä çäåñü. Íàïðèìåð: êîä Google Adsense, ñêîïèðóéòå è âñòàâüòå ñþäà ñêðèïò. Âû ìîæåòå íàéòè íåêîòîðûå ïðèìåðû çäåñü: http://fijiwebdesign.com/content/view/94/55/1/1/" cols="70" rows="30" />
+  		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="eval_php" type="list" default="1" label="Ïðîâåðÿòü íàëè÷èå PHP" description="Ïîçâîëÿåò âàì âñòàâëÿòü PHP-ñêðèïò âíóòðü âàøåãî ñîäåðæèìîãî. Åñëè æå âû áóäåòå èñïîëüçîâàòü òîëüêî HTML, CSS, è JavaScript â ýòîì ìîäóëå, òîãäà ìîæíî îòêëþ÷èòü ýòó ôóíêöèþ äëÿ áîëåå áûñòðîé ðàáîòû.">
+			<option value="0">Íåò</option>
+			<option value="1">Äà</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="discovery" type="list" default="1" label="Ðàçðåøèòü ïðîâåðêó" description="Ïîçâîëÿåò Fiji Web Design îïðåäåëÿòü, èñïîëüçóåòñÿ ëè mod_php. Ýòî íóæíî äëÿ îòëàäêè è äëÿ îò÷åòîâ èñïîëüçîâàíèÿ.">
+			<option value="0">Íåò</option>
+			<option value="1">Äà</option>
+		</param>
+  </params>
+</mosinstall>
