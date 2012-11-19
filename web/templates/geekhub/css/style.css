@@ -52,11 +52,11 @@ a:hover                        { text-decoration:none; }
 /*----------------------------------------------------------------------------------*/
 /*-------------------------------------WRAPPER--------------------------------------*/
 /*----------------------------------------------------------------------------------*/
-body .inner{
-    background:url("/templates/geekhub/images/header_bg.png")/*tpa=http://geekhub.ck.ua/images/header_bg.png*/ repeat-x top center #fff;
+body.inner{
+    background:url("../images/header_bg.png")/*tpa=http://geekhub.ck.ua/images/header_bg.png*/ repeat-x top center #fff;
 }
 body {
-    background:url("/templates/geekhub/images/header_bg.png")/*tpa=http://geekhub.ck.ua/images/header_bg.png*/ repeat-x center -342px  #fff;
+    background:url("../images/header_bg.png")/*tpa=http://geekhub.ck.ua/images/header_bg.png*/ repeat-x center -342px  #fff;
 }
 
 body span.line
@@ -87,13 +87,13 @@ body span.line
     height:450px;
 }
 
-#header h1{
+#header h2{
 	position:absolute; top:19px; left:0px;
 	width:167px;
 	height:71px;
-	background:url("/templates/geekhub/images/geekhub_logo.png")/*tpa=http://geekhub.ck.ua/images/geekhub_logo.png*/ no-repeat;
+	background:url("../images/geekhub_logo.png")/*tpa=http://geekhub.ck.ua/images/geekhub_logo.png*/ no-repeat;
 }
-#header h1 a {
+#header h2 a {
 	display:block;
     width:167px;
     height:71px;
@@ -111,7 +111,7 @@ body span.line
     color:#fff;
     text-align:center;
     font-size:28px;
-    background:url("/templates/geekhub/images/registration_button.png")/*tpa=http://geekhub.ck.ua/images/registration_button.png*/ no-repeat;
+    background:url("../images/registration_button.png")/*tpa=http://geekhub.ck.ua/images/registration_button.png*/ no-repeat;
 	z-index:2;
 }
 #header > img {
@@ -137,14 +137,17 @@ body span.line
 .inner #header .nav {
     height:42px;
     margin:34px 0 31px;
-    ;
 }
 .inner #header .nav li a {
     padding:14px 0 10px;
 
 }
  #header .nav li.active a  {
-    background:url("/templates/geekhub/images/inner_active.png") center bottom no-repeat;
+    background:url("../images/inner_active.png") center bottom no-repeat;
+}
+
+.inner #header .nav li.active a  {
+    background:none;
 }
 #header .nav {
     overflow:hidden;
@@ -180,16 +183,15 @@ body span.line
 	float:left;
     width:24px;
     height:42px;
-	padding: 0 4px;
+    padding: 0 4px;
 }
 #header .links li a {
-	display:block;
+    display:block;
     width:24px;
     height:42px;
     color:#396375;
-    padding:0;
     text-indent:-400px;
-    background:url("/templates/geekhub/images/icons_social.png")/*tpa=http://geekhub.ck.ua/images/icons_social.png*/ no-repeat;
+    background:url("../images/icons_social.png")/*tpa=http://geekhub.ck.ua/images/icons_social.png*/ no-repeat;
 }
 #header .links li a.fb{
     background-position:0 10px;
@@ -208,7 +210,7 @@ body span.line
 }
 
 #header .links li a.active,#header .links li.active a,#header .links li a:hover {
-    background-image:url("/templates/geekhub/images/icons_social_hover.png")/*tpa=http://geekhub.ck.ua/images/icons_social_hover.png*/;
+    background-image:url("../images/icons_social_hover.png")/*tpa=http://geekhub.ck.ua/images/icons_social_hover.png*/;
 }
 
 
@@ -263,7 +265,7 @@ body span.line
     height:221px;
     padding:13px 13px 66px;
     margin:42px 0 0 53px;
-    background:url("/templates/geekhub/images/header_video_bg.png")/*tpa=http://geekhub.ck.ua/images/header_video_bg.png*/ no-repeat;
+    background:url("../images/header_video_bg.png")/*tpa=http://geekhub.ck.ua/images/header_video_bg.png*/ no-repeat;
 }
 #header #media_slider {
     position: relative;
@@ -445,14 +447,14 @@ body span.line
     display:block;
     text-indent:-200px;
     overflow:hidden;
-    background:url("/templates/geekhub/images/sponsors.png")/*tpa=http://geekhub.ck.ua/images/sponsors.png*/ no-repeat;
+    background:url("../images/sponsors.png")/*tpa=http://geekhub.ck.ua/images/sponsors.png*/ no-repeat;
 }
 
 #content .home ul.social_share > li.sertificates_list h4 {
 	border:none;
 width:276px;
 height:214px;
-background:url("/templates/geekhub/images/banner.png")/*tpa=http://geekhub.ck.ua/images/banner.png*/ no-repeat;
+background:url("../images/banner.png")/*tpa=http://geekhub.ck.ua/images/banner.png*/ no-repeat;
 }
 
 #content .home ul.social_share > li.sertificates_list {
@@ -618,7 +620,7 @@ text-indent:-999em;
     height:300px;
     float:left;
     padding:17px 17px 17px 16px;
-    background:url("/templates/geekhub/images/map.png")/*tpa=http://geekhub.ck.ua/images/map.png*/ no-repeat;
+    background:url("../images/map.png")/*tpa=http://geekhub.ck.ua/images/map.png*/ no-repeat;
 }
 
 #content .contacts dl dt {
@@ -650,7 +652,7 @@ text-indent:-999em;
     display:block;
     text-indent:-200px;
     overflow:hidden;
-    background:url("/templates/geekhub/images/contact_links.png")/*tpa=http://geekhub.ck.ua/images/contact_links.png*/ no-repeat;
+    background:url("../images/contact_links.png")/*tpa=http://geekhub.ck.ua/images/contact_links.png*/ no-repeat;
 }
 
 #content .contacts dl ul li.fb a {
@@ -702,20 +704,20 @@ text-indent:-999em;
     margin: 0 0 10px;
     color:#4c7689;
 }
-#content .about > ul {
+#content .about ul {
     overflow:hidden;
     padding:0 35px;
 }
-#content .about > ul .imgs {
+#content .about ul .imgs {
     float:left;
     width:274px;
     height:490px;
     margin:0 28px 0 0;
 }
-#content .about > ul .imgs img {
+#content .about ul .imgs img {
     padding:0 0 20px;
 }
-#content .about > ul li {
+#content .about ul li {
     overflow:hidden;
 }
 
@@ -830,7 +832,7 @@ text-indent:-999em;
 	width:217px;
 	height:46px;
 	border:none;
-	background:url("/templates/geekhub/images/register_submit.png")/*tpa=http://geekhub.ck.ua/images/register_submit.png*/ left top no-repeat;
+	background:url("../images/register_submit.png")/*tpa=http://geekhub.ck.ua/images/register_submit.png*/ left top no-repeat;
 	font-size:27px;
 	color:#fff;
 }
@@ -921,7 +923,7 @@ text-indent:-999em;
 	padding:10px 0 0;
 	font-size:13px;
 	color:#EB3581;
-} 
+}
 
 
 
